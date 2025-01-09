@@ -1,5 +1,11 @@
-
-title: Charlie Kim's homepage
-description: Bookmark this to keep an eye on my project updates!
-
-[new page] (Project.md)
+theme: jekyll-theme-minimal
+title: "Charlie Kim's homepage"
+description: "Bookmark this to keep an eye on my project updates!"
+nav:
+  - title: "Home"
+    url: /
+  - title: "Projects"
+    url: /project.md
+footer_links:
+  - title: "Projects"
+    url: /project.md
