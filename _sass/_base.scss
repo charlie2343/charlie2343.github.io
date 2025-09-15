@@ -18,6 +18,16 @@ span,
 strong {
   color: var(--global-text-color);
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.post-title {
+  font-family: 'Source Code Pro', monospace;
+  font-weight: 400;
+}
 
 hr {
   border-top: 1px solid var(--global-divider-color);
@@ -248,6 +258,7 @@ ul.task-list input[type="checkbox"] {
   border-bottom: 1px solid var(--global-divider-color);
   background-color: var(--global-bg-color);
   opacity: 0.95;
+  font-family: 'Source Code Pro', monospace;
 }
 
 .navbar .dropdown-menu {
@@ -296,6 +307,7 @@ ul.task-list input[type="checkbox"] {
   }
 
   .navbar-nav .nav-item.active > .nav-link {
+    font-family: 'Source Code Pro', monospace;
     background-color: inherit;
     font-weight: bolder;
     color: var(--global-theme-color);
